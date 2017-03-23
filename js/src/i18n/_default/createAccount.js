@@ -17,29 +17,29 @@
 export default {
   accountDetails: {
     address: {
-      hint: `the network address for the account`,
-      label: `address`
+      hint: `the network address for the account`,//账户在网络中的地址
+      label: `address`//地址
     },
     name: {
-      hint: `a descriptive name for the account`,
-      label: `account name`
+      hint: `a descriptive name for the account`,//起一个形象的账户名吧
+      label: `account name`//账户名
     },
     phrase: {
-      hint: `the account recovery phrase`,
-      label: `owner recovery phrase (keep private and secure, it allows full and unlimited access to the account)`
+      hint: `the account recovery phrase`,//账户恢复短语
+      label: `owner recovery phrase (keep private and secure, it allows full and unlimited access to the account)`//
     }
   },
   accountDetailsGeth: {
-    imported: `You have imported {number} addresses from the Geth keystore:`
+    imported: `You have imported {number} addresses from the Geth keystore:`//
   },
   button: {
-    back: `Back`,
-    cancel: `Cancel`,
-    close: `Close`,
-    create: `Create`,
-    import: `Import`,
-    next: `Next`,
-    print: `Print Phrase`
+    back: `Back`,//后退
+    cancel: `Cancel`,//取消
+    close: `Close`,//关闭
+    create: `Create`,//创建
+    import: `Import`,//导入
+    next: `Next`,//下一步
+    print: `Print Phrase`//
   },
   creationType: {
     fromGeth: {
